@@ -27,4 +27,4 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://docker.io/userxy2015/ngnix:latest docker://crpi-lpdf7mkvd0jq1i4h.cn-beijing.personal.cr.aliyuncs.com/niu-int/ngnix:latest
+         skopeo copy docker://docker.io/dyrnq/open-webui:main docker://crpi-lpdf7mkvd0jq1i4h.cn-beijing.personal.cr.aliyuncs.com/niu-int/open-webui:main
